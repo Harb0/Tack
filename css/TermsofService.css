@@ -1,0 +1,148 @@
+#page {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 255, 236, 0.65) 0%,
+    rgba(255, 255, 255, 0.5) 10%,
+    rgba(0, 255, 236, 0.65) 20%,
+    rgba(255, 255, 255, 0.5) 35%,
+    rgba(0, 255, 236, 0.65) 50%,
+    rgba(255, 255, 255, 0.5) 70%,
+    rgba(0, 255, 236, 0.65) 78%,
+    rgba(255, 255, 255, 0.5) 90%,
+    rgba(0, 255, 236, 0.45) 100%,
+    transparent
+  );
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.page-image-bg-right-top,
+.page-image-bg-right-top_1,
+.page-image-bg-left-bottom,
+.page-image-bg-left-bottom_1 {
+  position: absolute;
+}
+.page-image-bg-right-top {
+  top: 2;
+  right: 0;
+  opacity: 0.3;
+}
+.page-image-bg-right-top_1 {
+  top: 1050px;
+  right: 0px;
+  opacity: 0.3;
+}
+.page-image-bg-left-bottom {
+  bottom: 300px;
+  left: 0;
+  opacity: 0.3;
+}
+/* .page-image-bg-left-bottom_1 {
+    bottom: 0;
+    left: 0;
+  } */
+/* About Us */
+.about-topic {
+  padding-top: 6rem;
+  padding-left: 1rem;
+}
+.about-topic h2 {
+  font-weight: 700;
+}
+
+.about-sub-topic {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  text-align: justify;
+}
+
+.about-sub-topic p {
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+.about-sub-topic h4 {
+  font-weight: 600;
+}
+
+/* Media queries  */
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px) */
+#header {
+  position: static;
+}
+#page {
+  background: none;
+}
+#page .container {
+  position: relative;
+  padding-top: 0;
+  background: radial-gradient(ellipse at center, #00ffec75 50%, #ffffff50);
+  background-size: cover;
+}
+.about-topic {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.page-image-bg-right-top {
+  top: 0px;
+  right: 0;
+  opacity: 0.3;
+  width: 50%;
+}
+.page-image-bg-right-top_1 {
+  top: 1050px;
+  right: 0px;
+  opacity: 0.3;
+  width: 50%;
+}
+.page-image-bg-left-bottom {
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 50%;
+}
+#page .about-topic h2,
+h4 {
+  text-align: center;
+}
+
+/* @media only screen and (min-width: 360px) and (max-width: 479px) */
+#page {
+  background: none;
+}
+#page .container {
+  position: relative;
+  padding-top: 0;
+  background: radial-gradient(ellipse at center, #00ffec75 50%, #ffffff50);
+  background-size: cover;
+}
+.about-topic {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+.page-image-bg-right-top {
+  top: 0px;
+  right: 0;
+  opacity: 0.3;
+  width: 50%;
+}
+.page-image-bg-right-top_1 {
+  top: 1050px;
+  right: 0px;
+  opacity: 0.3;
+  width: 50%;
+}
+.page-image-bg-left-bottom {
+  bottom: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 50%;
+}
+#page .about-topic h2,
+h4 {
+  text-align: center;
+}
